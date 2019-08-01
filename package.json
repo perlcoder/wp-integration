@@ -1,12 +1,28 @@
-
 {
-  "name": "Wp-sync",
-  "version": "0.1.0",
-  "main": "Gruntfile.js",
-  "author": "YOUR NAME HERE",
-  "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-wp-i18n": "~0.5.0",
-    "grunt-wp-readme-to-markdown": "~1.0.0"
-  }
+    "name": "Wp-sync",
+    "version": "0.0.1",
+    "description": "Get content from other WP sites and merge them",
+    "main": "Wp-sync.php",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/perlcoder/wp-integration.git"
+    },
+    "keywords": [
+        "wordpress", "synchronization"
+    ],
+    "author": "Marco Arthur, Marcio Marim",
+    "license": "GPL",
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-copy": "~0.5.0",
+        "grunt-contrib-jshint": "~0.8.0",
+        "grunt-contrib-sass": "^0.7.3",
+        "grunt-contrib-uglify": "~0.3.3",
+        "grunt-curl": "*",
+        "grunt-phpdocumentor": "~0.4.1",
+        "grunt-wp-i18n": "~0.4.0"
+    }
 }
